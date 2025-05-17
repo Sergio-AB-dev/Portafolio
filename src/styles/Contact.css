@@ -1,0 +1,163 @@
+.sobre-mi__contact {
+    width: 420px;
+    height: 585px;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 55%;
+    top: 32%;
+    z-index: 2;
+}
+
+.sobre-mi__contact-foto {
+    width: 100%;
+    height: 60%;
+}
+
+.sobre-mi__contact-foto-image {
+    width: 100%;
+    position: absolute;
+    top: -188px;
+}
+
+.sobre-mi__contact-social {
+    background-color: black;
+    width: 100%;
+    height: 40%;
+    color: #f7eee1;
+}
+
+.sobre-mi__contact-social-title {
+    font-family: "brasika", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sobre-mi__contact-social-list {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+.sobre-mi__contact-social-list svg {
+    width: 20px;
+    height: 20px;
+    fill: #f7eee1;
+    margin: 0 20px;
+    
+}
+
+
+.estudios {
+    width: 100%;
+    height: 400px;
+    background-color: var(--main-color);
+    position: relative;
+}
+
+.estudios__educacion {
+    width: 700px;
+}
+
+.estudios__educacion__title {
+    font-family: "brasika", sans-serif;
+    font-size: 60px;
+    color: var(--yellow-color);
+    text-align: center;
+}
+
+.estudios__educacion__list-item {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.estudios__educacion__list-star {
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+}
+
+.estudios__habilidades {
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    left: 55%;
+    top: 42%;
+}
+
+.estudios__habilidades__title {
+    font-family: "brasika", sans-serif;
+    font-size: 60px;
+    color: var(--yellow-color);
+    margin: auto;
+}
+
+.estudios__habilidades__container {
+    font-family: "Barlow", sans-serif;
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+.estudios__habilidades__container-img {
+    width: 70px;
+}
+
+.estudios__habilidades__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 1000px) {
+
+    .sobre-mi__contact {
+    width: 86%;
+    height: 340px;
+    display: flex;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 120px;
+}
+
+.sobre-mi__contact-foto-image {
+    width: 359px;
+    top: -140px;
+}
+
+.sobre-mi__contact-social {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+
+@media (max-width: 768px) {
+
+    .sobre-mi__contact {
+    width: 86%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 120px;
+}
+
+.sobre-mi__contact-social {
+    height: 270px;
+    margin-top: 338px;
+}
+
+}
+

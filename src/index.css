@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #334b34;
+    --text-color: #d5d1be;
+    --yellow-color: #fdad1f;
+    --orange-color: #fb5e31;
+}
+
+@font-face {
+    font-family: "brasika";
+    src: url(./assets/brasika-display-trial.otf);
+}

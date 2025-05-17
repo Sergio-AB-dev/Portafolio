@@ -1,0 +1,76 @@
+.sobre-mi {
+    width: 100%;
+    background-color: #f7eee1;
+    padding: 80px 0 50px 0;
+    position: relative;
+}
+
+.sobre-mi__description {
+    width: 440px;
+    margin-left: 70px;
+}
+
+.sobre-mi__description-title {
+    font-family: "brasika", sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+.sobre-mi__description-text {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+.sobre-mi__description-text span {
+    color: var(--orange-color);
+    font-weight: bold;
+}
+
+.sobre-mi__description-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #f7eee1;
+    background-color: var(--orange-color);
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 40px;
+}
+
+.sobre-mi__description-link svg {
+    width: 24px;
+    height: 24px;
+    fill: #f7eee1;
+    margin-right: 50px;
+}
+
+
+@media (max-width: 1000px) {
+
+    .sobre-mi__description {
+    width: 80%;
+    margin: 0;
+    margin: auto;
+}
+
+    .sobre-mi__description-title {
+        width: 100%;
+        text-align: center;
+}
+
+    .sobre-mi__description-title {
+    margin-top: 50px;
+}
+
+
+}
+
+@media (max-width: 768px)  {
+      .sobre-mi__description-title {
+    margin-top: 10px;
+}
+}

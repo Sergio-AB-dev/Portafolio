@@ -1,0 +1,27 @@
+.trabajos {
+    width: 100%;
+    background-color: #f7eee1;
+    padding-bottom: 30px;
+}
+
+.trabajos__title {
+    font-family: "brasika", sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.trabajos__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 1000px) {
+    .trabajos__section {
+    flex-direction: column;
+    gap: 30px;
+}
+}

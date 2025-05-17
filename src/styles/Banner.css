@@ -1,0 +1,137 @@
+.banner {
+    width: 100%;
+    height: 495px;
+    background-color: var(--main-color);
+    display: flex;
+    padding-top: 70px;
+    position: relative;
+}
+
+.banner__foto {
+    width: 454px;
+    height: 508px;
+    background-image: url(../assets/main-image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 3;
+    left: 15%;
+}
+
+.banner__title-secundary {
+    font-family: "brasika", sans-serif;
+    font-size: 84px;
+    color: transparent; 
+    -webkit-text-stroke: 2px var(--yellow-color); 
+    margin-top: 60px;
+    z-index: 2;
+    position: absolute;
+    left: 28%;
+}
+
+.banner__title {
+    font-size: 84px;
+    color: var(--text-color);
+    font-family: "brasika", sans-serif;
+    position: absolute;
+    z-index: 3;
+    left: 27%;
+    top: 0;
+}
+
+.banner__foto-star1 {
+    width: 90px;
+    position: absolute;
+    top: 35px;
+    left: -35px;
+}
+
+.banner__foto-star2 {
+    width: 50px;
+    position: absolute;
+    top: 110px;
+    left: -35px;
+}
+
+.banner__foto-star3 {
+    width: 50px;
+    position: absolute;
+    bottom: -20px;
+    right: -25px;
+}
+
+.banner__division {
+    background-color: black;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.banner__division-spam {
+    background-color: var(--yellow-color);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    font-family: "Barlow", sans-serif;
+    z-index: 2;
+}
+
+@media (max-width: 1000px) {
+    .banner__title {
+    font-size: 65px;
+    left: 27%;
+    top: 17px;
+}
+
+.banner__title-secundary {
+    font-size: 65px;
+    margin-top: 60px;
+    position: absolute;
+    left: 28%;
+}
+
+.banner__title-secundary p {
+    margin-bottom: 43px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .banner__foto {
+    width: 258px;
+    height: 453px;
+    left: 6%;
+}
+
+.banner__title {
+    font-size: 36px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 35px;
+
+}
+
+.banner__title-secundary {
+    font-size: 36px;
+    margin-top: 60px;
+    left: 24%;
+}
+
+.banner__title-secundary p {
+    margin-bottom: 63px;
+}
+
+.banner__division {
+    height: 130px;
+}
+.banner__division-spam {
+    top: 50%;
+}
+}
