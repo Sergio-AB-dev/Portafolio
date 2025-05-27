@@ -3,11 +3,11 @@ import Tecnologias from "./Tecnologias";
 import "../styles/Trabajos_card.css"
 
 
-const Trabajos_card = ({title,Img_pjt})=> {
+const Trabajos_card = ({title,className, href})=> {
     return (
         <>
-        <a href="https://sergio-ab-dev.github.io/StarBucks/" target="_blank" className="trabajos__section-project">
-            <div className={`trabajos__image ${Img_pjt}`}></div>
+        <a href={href} target="_blank" className="trabajos__section-project">
+            <div className={`trabajos__image ${className}`}></div>
             <div className="trabajos__section-project__description">
                 <p>{title}</p>
                 <Tecnologias  className="tecnologias_pjt1" className_hab_continer="tecnologia__html"/>

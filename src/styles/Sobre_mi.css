@@ -8,6 +8,7 @@
 .sobre-mi__description {
     width: 440px;
     margin-left: 70px;
+    position: relative;
 }
 
 .sobre-mi__description-title {

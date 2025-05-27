@@ -9,10 +9,10 @@
 .trabajos__image {
     width: 100%;
     height: 50%;
-    background-image: url(../assets/Proyecto-1.png);
     background-size: cover;
     background-position: center;
 }
+
 
 
 .trabajos__section-project__description {

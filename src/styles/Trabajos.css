@@ -18,6 +18,14 @@
     justify-content: space-around;
 }
 
+.card_superhello {
+    background-image: url(../assets/Proyecto_superhello.png);
+}
+
+.card_starbucks {
+    background-image: url(../assets/Proyecto_starbucks.png);
+}
+
 
 @media (max-width: 1000px) {
     .trabajos__section {
