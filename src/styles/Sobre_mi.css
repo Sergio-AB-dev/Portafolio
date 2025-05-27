@@ -1,13 +1,18 @@
-.sobre-mi {
+.sobre-mi__container {
+    display: flex;
     width: 100%;
+    justify-content: space-around;
     background-color: #f7eee1;
+}
+
+.sobre-mi {
     padding: 80px 0 50px 0;
     position: relative;
 }
 
+
 .sobre-mi__description {
     width: 440px;
-    margin-left: 70px;
     position: relative;
 }
 
@@ -52,6 +57,11 @@
 
 @media (max-width: 1000px) {
 
+    .sobre-mi__container {
+    flex-direction: column;
+    }
+
+
     .sobre-mi__description {
     width: 80%;
     margin: 0;
@@ -67,11 +77,16 @@
     margin-top: 50px;
 }
 
-
 }
 
+
+
+
 @media (max-width: 768px)  {
-      .sobre-mi__description-title {
+    .sobre-mi__description-title {
     margin-top: 10px;
+}
+.sobre-mi__container {
+    flex-direction: column;
 }
 }

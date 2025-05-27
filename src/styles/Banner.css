@@ -5,6 +5,11 @@
     display: flex;
     padding-top: 70px;
     position: relative;
+    justify-content: center;
+}
+.banner__container {
+    display: flex;
+    position: relative;
 }
 
 .banner__foto {
@@ -15,7 +20,7 @@
     background-position: center;
     position: relative;
     z-index: 3;
-    left: 15%;
+    left: -40%;
 }
 
 .banner__title-secundary {
@@ -26,7 +31,7 @@
     margin-top: 60px;
     z-index: 2;
     position: absolute;
-    left: 28%;
+    left: 14%;
 }
 
 .banner__title {
@@ -35,8 +40,9 @@
     font-family: "brasika", sans-serif;
     position: absolute;
     z-index: 3;
-    left: 27%;
-    top: 0;
+    top: -73px;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 .banner__foto-star1 {
@@ -86,8 +92,8 @@
 @media (max-width: 1000px) {
     .banner__title {
     font-size: 65px;
-    left: 27%;
-    top: 17px;
+    margin: auto;
+    top: -62px;
 }
 
 .banner__title-secundary {
@@ -107,21 +113,21 @@
     .banner__foto {
     width: 258px;
     height: 453px;
-    left: 6%;
+    left: -13%;
 }
 
 .banner__title {
     font-size: 36px;
     transform: translateX(-50%);
     left: 50%;
-    top: 35px;
+    top: -39px;
 
 }
 
 .banner__title-secundary {
     font-size: 36px;
     margin-top: 60px;
-    left: 24%;
+    left: 15%;
 }
 
 .banner__title-secundary p {

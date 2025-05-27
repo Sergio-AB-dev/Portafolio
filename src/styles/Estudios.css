@@ -2,11 +2,12 @@
     width: 100%;
     height: 400px;
     background-color: var(--main-color);
-    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .estudios__educacion {
-    width: 100%;
+    width: 55%;
     padding-top: 30px;
 }
 
@@ -43,8 +44,14 @@
 
     .estudios {
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    flex-direction: column;
 
+}
+
+.estudios__educacion {
+    margin: auto;
+    margin-bottom: 30px;
 }
 
  .estudios__educacion__title {

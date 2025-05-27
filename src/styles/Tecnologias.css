@@ -1,9 +1,8 @@
 .tecnologias {
     width: auto;
     text-align: center;
-    position: absolute;
-    left: 53%;
-    top: 42%;
+    margin-top: 140px;
+    margin-right: 40px;
 }
 
 .tecnologias__title {
@@ -32,8 +31,9 @@
 
 @media (max-width: 1000px)  {
     .tecnologias {
-        margin-top: 40px;
-    position: static;
+        width: 100%;
+    margin-top: 40px;
+    margin: auto;
 
 }
 }

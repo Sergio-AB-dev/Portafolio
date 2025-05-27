@@ -43,15 +43,16 @@
 
 
 
-@media (max-width: 1215px) {
+@media (max-width: 1285px) {
     .trabajos__section-project {
     width: 290px;
-    height: 330px;
+    height: 357px;
     padding-bottom: 20px;
 }
 
 .trabajos__section-project__description {
     font-size: 32px;
+    margin-top: 20px;
 }
 
 .tecnologias_pjt1 .tecnologia_img {

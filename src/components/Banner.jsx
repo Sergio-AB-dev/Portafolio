@@ -6,7 +6,8 @@ const Banner = () => {
     return (
         <>
         <div className="banner">
-            <div className="banner__foto">
+           <div className="banner__container">
+             <div className="banner__foto">
                 <img className="banner__foto-star1" src={yellow_star}alt=""/>
                 <img className="banner__foto-star2" src={yellow_star} alt=""/>
                 <img className="banner__foto-star3" src={yellow_star} alt=""/>
@@ -17,8 +18,9 @@ const Banner = () => {
                 <p>PORTAFOLIO</p>
                 <p>PORTAFOLIO</p>
             </div>
-
+           </div>
         </div>
+        
         <div className="banner__division">
             <div className="banner__division-spam">
             <p>Scroll down</p>

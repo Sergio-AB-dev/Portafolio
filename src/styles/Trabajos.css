@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .card_superhello {
@@ -32,4 +33,5 @@
     flex-direction: column;
     gap: 30px;
 }
+
 }
