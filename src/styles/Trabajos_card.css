@@ -41,6 +41,10 @@
     font-size: 17px;
 }
 
+.SQL-icon {
+    display: none;
+}
+
 
 
 @media (max-width: 1285px) {
@@ -63,6 +67,7 @@
 .tecnologias_pjt1 .tecnologia_continer_section p {
     font-size: 12px;
 }
+
 
 }
 

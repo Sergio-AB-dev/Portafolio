@@ -4,9 +4,10 @@ import CSS from "../assets/css-3.png"
 import REACT from "../assets/react.png"
 import GIT from "../assets/github.png"
 import JS from "../assets/javascript.png"
+import SQL from "../assets/servidor-sql.png"
 import "../styles/Tecnologias.css"
 
-const Tecnologias = ({title, className, className_img, className_pjt_continer, className_title, className_hab_continer,className_hab_continer2, className_hab_continer3, className_hab_continer4 }) => {
+const Tecnologias = ({title, className, className_img, className_pjt_continer, className_title, className_hab_continer,className_hab_continer2, className_hab_continer3, className_hab_continer4, className_hab_continer5 }) => {
     return (
         <div className={`tecnologias ${className}`}>
             <p className={`tecnologias__title ${className_title}`}>{title}</p>
@@ -30,6 +31,10 @@ const Tecnologias = ({title, className, className_img, className_pjt_continer, c
                 <div className={`tecnologia_continer_section ${className_hab_continer4}`}>
                     <img className={`tecnologia_img ${className_img}`}src={GIT} alt="git y github"/>
                     <p>GIT/GITHUB</p>
+                </div>
+                <div className={`tecnologia_continer_section ${className_hab_continer5}`}>
+                    <img className={`tecnologia_img ${className_img}`}src={SQL} alt="SQL"/>
+                    <p>SQL</p>
                 </div>
             </div>
         </div>

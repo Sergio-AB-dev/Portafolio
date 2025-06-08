@@ -10,7 +10,7 @@ const Trabajos_card = ({title,className, href})=> {
             <div className={`trabajos__image ${className}`}></div>
             <div className="trabajos__section-project__description">
                 <p>{title}</p>
-                <Tecnologias  className="tecnologias_pjt1" className_hab_continer="tecnologia__html"/>
+                <Tecnologias  className="tecnologias_pjt1" className_hab_continer="tecnologia__html" className_hab_continer5="SQL-icon"/>
             </div>
         </a>
         </>
